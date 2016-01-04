@@ -1,0 +1,35 @@
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 6rem !important;
+}
+
+textarea{
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+  font-size: 5rem !important;
+  height: auto;
+}
+
+p{
+  font-size: 2em;
+  margin-left: 2rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section[role="region"] > .icon.icon-settings {
+  background-image: url(gaiabb/headers/images/icons/settings.png);
+}
+
+button[type=submit] {
+  width: 100%;
+  font-size: 5rem;
+}

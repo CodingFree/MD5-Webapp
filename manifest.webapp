@@ -1,0 +1,23 @@
+{
+  "name": "MD5 Webapp",
+  "description": "Calculates MD5 given a string.",
+  "launch_path": "/index.html",
+  "icons": {
+    "640": "/icons/640.png",
+    "512": "/icons/512.png",
+    "256": "/icons/256.png",
+    "128": "/icons/128.png",
+    "90": "/icons/90.png",
+    "64": "/icons/64.png",
+    "60": "/icons/60.png",
+    "48": "/icons/48.png",
+    "32": "/icons/32.png",
+    "16": "/icons/16.png"
+  },
+  "developer": {
+    "name": "CodingFree",
+    "url": "https://github.com/CodingFree"
+  },
+  "version":"1.0"
+}
+
