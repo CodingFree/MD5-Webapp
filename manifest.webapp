@@ -18,6 +18,7 @@
     "name": "CodingFree",
     "url": "https://github.com/CodingFree"
   },
-  "version":"1.0"
+  "version":"1.0",
+  "orientation": "portrait"
 }
 

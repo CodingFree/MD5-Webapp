@@ -14,11 +14,12 @@ header{
   height: auto !important;
 }
 
-textarea{
-  margin-top: 2rem !important;
-  margin-bottom: 2rem !important;
+input{
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
   font-size: 5rem !important;
-  height: auto;
+  display: inline-block !important;
+  height: 3em !important;
 }
 
 p{

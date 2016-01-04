@@ -9,9 +9,18 @@ translateForm.addEventListener("submit", function(event){
 }, true);
 
 translateButton.addEventListener("click", function (event) {
+    updateText();
+});
+
+var myInput = document.getElementById("myInput");
+myInput.addEventListener("keyup", function (event) {
+    updateText();
+});
+
+function updateText(){
     var normal = document.normalString.myString.value;
     result.innerHTML = md5(normal);
 
     //Se evita que se ejecute la acción por defecto.
     event.preventDefault ? event.preventDefault() : (event.returnValue = false);
-});
+}
